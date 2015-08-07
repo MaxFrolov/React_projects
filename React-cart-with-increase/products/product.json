@@ -1,0 +1,9 @@
+[{"name": "B 7,5 П3 M-100 W2 F75", "price": 2150, "total": 1},
+  {"name": "B 12,5 П3 M-150 W2 F150", "price": 2270, "total": 1},
+  {"name": "B 15 П3 M-200 W4 F150", "price": 2470, "total": 1},
+  {"name": "B 20 П3 M-250 W4 F200", "price": 2590, "total": 1},
+  {"name": "B 22,5 П3 M-300 W6 F200", "price": 2680, "total": 1},
+  {"name": "B 25 П3 M-350 W8 F200", "price": 2810, "total": 1},
+  {"name": "B 30 П3 M-400 W10 F300", "price": 2920, "total": 1},
+  {"name": "B 35 П3 M-450 W12 F300", "price": 3010, "total": 1},
+  {"name": "B 40 П3 M-500 W12 F300", "price": 3240, "total": 1}]
