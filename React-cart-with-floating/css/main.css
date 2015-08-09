@@ -1,0 +1,186 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	padding: 0;
+	height: 100%;
+	color: #545454;
+}
+#example {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.list, .list_ad {
+	list-style: none;
+	padding: 0;
+}
+.list li {
+	float: left;
+	margin-left: 60px;
+	padding-bottom: 50px;
+	height: 40px;
+	width: 200px;
+}
+.list li, .list_ad li {
+	font-size: 13px;
+	display: block;
+	position: relative;
+	padding-left: 3px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.list li:last-child{
+	margin-bottom: 100px;
+}
+.btn_add:hover {
+	cursor: pointer;
+}
+.btn_add {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 23px;
+	height: 23px;
+	background: url(../img/spr.png) no-repeat -28px 0;
+}
+.inp {
+	border: none;
+}
+.active {
+	background: rgba(18, 0, 194, 0.08);
+}
+.n_active {
+	background: none;
+}
+.price {
+	margin-left: 70px;
+}
+.remove {
+	position: absolute;
+	right: 5px;
+	top: 13px;
+	width: 15px;
+	height: 15px;
+	background: url(../img/spr.png) no-repeat -52px 0;
+}
+.remove:hover {
+	cursor: pointer;
+
+}
+.control-label.labl {
+	float: none;
+	text-align: left;
+	font-size: 10px;
+}
+.total {
+	height: 25px;
+	background: #fff;
+	border-bottom: 1px solid red;
+	padding-top: 3px;
+}
+.right-col, .right-col1 {
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: absolute;
+	top: 30px;
+	transition: all 1s ease-out 0.1s;
+	background: rgba(35, 9, 3, 0.16);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	z-index: 4;
+	
+}
+.right-col {
+	right: -400px;
+}
+.right-col1 {
+	right: 20px;
+}
+p.total_p {
+	margin-top: -5px;
+	padding: 0;
+
+}
+div.form-group {
+	margin-bottom: 0;
+	position: relative;
+}
+input.form_inp {
+	height: 25px;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid black;
+	padding-left: 18px;
+}
+.bot_inp {
+	text-align: center;
+	margin-top: 10px;
+}
+.btn_form {
+	width: 110px;
+	height: 40px;
+	background: #fa592d;
+	border: none;
+	color: #FFF;
+}
+.inp_name {
+	background: url(../img/spr.png) 0 0;
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 18px;
+	bottom: 3px;
+}
+.inp_tel {
+	background: url(../img/spr.png) -15px 0;
+	display: block;
+	width: 13px;
+	height: 15px;
+	position: absolute;
+	left: 18px;
+	bottom: 3px;
+}
+.li_p {
+	padding-right: 5px;
+}
+.close1 {
+	line-height: 1.2;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	cursor: pointer;
+    z-index: 5;
+    font-size: 15px;
+}
+.cart_total {
+	font-size: 16px;
+	cursor: pointer;
+  	color: white;
+	background: #FA592D;
+	padding: .7em 1.5em;
+	outline: none;
+	width: 210px;
+	margin-bottom: 50px;
+}
+.cart_total:hover {
+	background: #FC714C;
+}
+.cart_total:active {
+	background: #DB3508;
+}
