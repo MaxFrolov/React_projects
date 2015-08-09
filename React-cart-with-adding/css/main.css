@@ -1,0 +1,44 @@
+#example {
+	padding-top: 50px;
+}
+.list {
+	list-style: none;
+}
+.list li {
+	font-size: 18px;
+	margin-bottom: 10px;
+	display: block;
+	height: 50px;
+	width: 100%;
+	border: 2px solid grey;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+.btn_add {
+	float: right;
+	margin-top: -5px;
+}
+.btn_add:hover {
+	 box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0, 171, 227,.5),
+   0 -1px 1px 1px rgba(0, 171, 227,.5);
+}
+.btn_add:active {
+	background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
+.inp {
+	border: none;
+}
+.active {
+	background: #E8EFF9;
+}
+.n_active {
+	background: #fff;
+}
