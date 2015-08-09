@@ -4,4 +4,6 @@
 You can check demo: 
 > [React-cart-with-increase](http://simplify.esy.es/cart-with-increase/)
 
+> [React-cart-with-floating](http://simplify.esy.es/cart-with-floating/)
+
 > [React-cart-with-adding](http://simplify.esy.es/cart-with-adding/)
